@@ -11,13 +11,13 @@ foreach (glob( "img/.jpg") as $filename){
 }
 
 foreach (glob( "img/.jpeg") as $filename){
-    //displays all pngs and their name
+    //displays alle pngs en hun naam
     echo "<img src='$filename' alt='$filename' height='100px' /><br>";
     echo "<p>$filename</p>";
 }
 
 foreach (glob( "img/*.png") as $filename){
-    //displays all pngs and their name
+    //displays alle pngs en hun naam
     echo "<img src='$filename' alt='$filename' height='100px' /><br>";
     echo "<p>$filename</p>";
 }
