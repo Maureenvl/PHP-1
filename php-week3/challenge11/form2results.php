@@ -19,8 +19,6 @@ print_r ($_POST);
 echo "dit is een print session";
 print_r ($_SESSION);
 echo "dit is een print session ingelogd";
-// print_r ($_SESSION["ingelogd"]);
-
 
 if ($_POST["email"] == 'test@test.nl' && $_POST["pwd"] == 'tEst') {
     echo ("je hebt toegang tot de website");

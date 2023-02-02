@@ -37,24 +37,7 @@ echo ("U heeft geen toegang tot deze website");
        <input type="submit">');
 
 }
-
-
-
-
-
-
-
-
-?>
-
-
-<!-- <form action="form2results.php" method="post">
-  <input type="email" name="email" required ><br>
-  <input type="password" name="pwd" required><br>
-  <input type="submit"> -->
-
-
-  
+?>  
 </form>
 </body>
 </html>
